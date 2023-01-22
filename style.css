@@ -17,6 +17,7 @@ h2{
 .info
 {
 	text-align:center;
+	position: relative;
 }
 
 .table {
@@ -27,7 +28,7 @@ h2{
 
 th, td {
   border-bottom: 1px solid #ddd;
-  padding: 15px;
+  padding: 5px;
 }
 
 th {
