@@ -57,18 +57,18 @@ th {
 .double-column {
   display: flex;
   flex-direction: column;
-  flex-basis: 100%;
+  flex-basis: 50%;
   flex: 2;
 }
 
 .col1 {
   background-color: white;
-  height: 50px;
+  height: 30px;
 }
 
 .col2 {
   background-color: white;
-  height: 50px;
+  height: 30px;
 }
 
 
