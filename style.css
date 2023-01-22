@@ -36,4 +36,32 @@ th {
   color: black;
 }
 
+.flexbox {
+  margin: 15px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.col1 {
+  background-color: white;
+  height: 100px;
+}
+
+.col2 {
+  background-color: white;
+  height: 100px;
+}
+
 
