@@ -1,5 +1,5 @@
 
-body{
+body
 {
 	font-family: Arial;
 }
@@ -27,12 +27,12 @@ h2{
 
 th, td {
   border-bottom: 1px solid #ddd;
+  padding: 15px;
 }
 
 th {
   background-color: #ADD8E6;
   color: black;
 }
-/<!--End of body -->
-}
+
 
