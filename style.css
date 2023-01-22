@@ -15,9 +15,16 @@ h2
 }
 
 
-.info{
-	margin-left:auto;
-	margin-right: auto;
+.info
+{
+	text-align:center;
 }
+
+.table {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/<!--End of body -->
 }
 
