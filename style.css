@@ -4,13 +4,12 @@ body{
 	font-family: Arial;
 }
 
-h1
-{
+h1{
+	margin: 0 auto;
 	text-align: center;
 }
 
-h2
-{
+h2{
 	text-align: left;
 }
 
@@ -21,10 +20,19 @@ h2
 }
 
 .table {
-	margin-left:auto;
-	margin-right:auto;
+	margin-left:center;
+	margin-right:center;
 }
 
+
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #ADD8E6;
+  color: black;
+}
 /<!--End of body -->
 }
 
