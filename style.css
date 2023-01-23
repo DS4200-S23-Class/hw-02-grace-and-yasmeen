@@ -36,55 +36,6 @@ th {
   color: black;
 }
 
-.flexbox {
-  margin: 15px;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-}
-
-.double-column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 50%;
-  flex: 2;
-}
-
-.col1 {
-  background-color: white;
-  height: 30px;
-}
-
-.col2 {
-  background-color: white;
-  height: 30px;
-}
-
-.Parent {
-  display: flex;
-  flex-direction: row;
-}
-
-.child1 {
-  width: 75%;
-  height: 100vh;
-}
-
-.child {
-  width: 25%;
-  height: 100vh;
-}
 
 .flexbox {
   margin: 15px;
