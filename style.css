@@ -71,6 +71,21 @@ th {
   height: 30px;
 }
 
+.Parent {
+  display: flex;
+  flex-direction: row;
+}
+
+.child1 {
+  width: 75%;
+  height: 100vh;
+}
+
+.child {
+  width: 25%;
+  height: 100vh;
+}
+
 ul{
   text-align: left;
 }
