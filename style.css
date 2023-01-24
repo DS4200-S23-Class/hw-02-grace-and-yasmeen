@@ -41,12 +41,12 @@ th {
 .flexbox {
   margin: 15px;
   display: flex;
+  justify-content: space-between;
 }
 
 .row {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -72,6 +72,7 @@ img{
 
 .circ {
   background color: red;
+  fill-opacity: 50%;
 }
 
 .circ:hover{
@@ -81,6 +82,10 @@ img{
 
 ul{
   text-align: left;
+}
+
+svg{
+  width: 100%;
 }
 
 
