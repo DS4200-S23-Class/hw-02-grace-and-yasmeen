@@ -20,16 +20,18 @@ h2{
 	position: relative;
 }
 
+/* table position */
 .table {
-	margin-left:50px;
-	margin-right:25px;
+	margin-left:10px;
+	margin-right:90px;
   width: 100%;
 }
 
 
+/* table style */
 th, td {
-  border-bottom: 1px solid #ddd;
-  padding: 5px;
+  border-bottom: 0.5px solid #ddd;
+  padding: 0px;
 }
 
 th {
@@ -38,6 +40,7 @@ th {
 }
 
 
+/* create flexbox */
 .flexbox {
   margin: 15px;
   display: flex;
@@ -57,24 +60,31 @@ th {
   flex: 2;
 }
 
+/* make image fill container */
 img{
 	object-fit: cover;
 	width: 100%;
 }
 
+/* rectangle style */
 .rect {
   background-color: red;
+  margin: 0 auto;
 }
 
+/* rectangle hover */
 .rect:hover {
   background-color: blue;
 }
 
+/* circle style */
 .circ {
   background color: red;
   fill-opacity: 50%;
+  margin: 0 auto;
 }
 
+/* circle hover */
 .circ:hover{
   stroke: red;
   stroke-width: 3;
@@ -88,4 +98,8 @@ svg{
   width: 100%;
 }
 
+/* div spacing */
+div {
+justify-content: space-evenly;
+}
 

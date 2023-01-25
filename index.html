@@ -2,6 +2,7 @@
 <html> 
 
 <head>
+    <!-- heading -->
     <meta charset=utf-8/>
     <link rel="stylesheet" href="style.css">
     <title>hw-02</title>
@@ -15,6 +16,8 @@
         <div class = "info"> 
 
             <h1>Dataset Types</h1>
+
+            <!-- create table -->
 
             <table class="table">
                 <tr>
@@ -43,13 +46,14 @@
         <div>
 
         <div class ="info">
-
+            <!-- data types for UFO-->
             <h1>Data Types</h1>
             <h2>UFO</h2>
             <ul>
                 <li>Row data type: Item</li>
                 <li>Column data type: Attribute
                     <ul>
+                        
                         <li>Attribute datetime: sequential quantitative</li>
                         <li>Attribute duration: sequential quantitative</li>
                         <li>Attribute city: nominal categorical</li>
@@ -58,7 +62,8 @@
                         <li>Attribute shape: nominal categorical</li>
                     </ul>
                 </li>
-            </ul>         
+            </ul>  
+             <!-- data types for Airports-->       
             <h2>Airports</h2>
             <ul>
                 <li>Row data type: Item</li>
@@ -70,6 +75,7 @@
                 <li> Column data type LONGITUDE: position</li>
                 <li> Column data type LATITUDE: position</li>
             </ul> 
+             <!-- data types for Google-Web-->
             <h2>Google-Web</h2>
             <ul>
                 <li>Row data type: item</li>
@@ -87,42 +93,46 @@
                 <div class='column'>
                     <img src="img/vis1.png">
                     <ul>
-                        <li>High Level Task: Consume, discover</li>
+                        <!-- high,medium, low level abstraction for image 1-->
+
+                        <li>High Level Task: Consume - discover</li>
                             <u1>
-                                <li> Shows last 3 days' of data so user can look at where point aligns relative to other data </li>
+                                <p> Shows last 3 days' of data so user can look at where point aligns relative to other data. </p>
                             </u1>
-                        <li>Medium Level Task: Search, lookup</li>
+                        <li>Medium Level Task: Search - lookup</li>
                             <u1>
-                                <li> Shows target data points for user to look at and the target and location are known  </li>
+                                <p> Visualization shows target data points for user to look at and the target and location are known. </p>
                             </u1>
-                        <li>Low Level Task: Query: identify </li>
+                        <li>Low Level Task: Query - identify </li>
                              <u1>
-                                <li>The data points are highlighted in red and are a single target  </li>
+                                <p>The data points are highlighted in red and are a single target to be identified.  </p>
                             </u1>
                         <li>Target: outliers </li>
                             <u1>
-                                <li>The highlighted data points lie away from the other data points indicating there is a different pattern compared to the rest of the data     </li>
+                                <p>The highlighted data points lie away from the other data points indicating there is a different pattern compared to the rest of the data.   </p>
                             </u1>
                     </ul>
                 </div>
                 <div class ='column'>
                     <img src="img/vis2.png">
                     <ul>
-                        <li>High Level Task: Consume, present</li>
+                        <!-- high,medium, low level abstraction for image 2-->
+
+                        <li>High Level Task: Consume - present</li>
                             <u1>
-                                <li> The visualization presents two statistics from two locations with clear and direct purpose  </li>
+                                <p> The visualization presents two statistics from two locations with clear and direct purpose.  </p>
                             </u1>
-                        <li>Medium Level Task: Search, browse </li>
+                        <li>Medium Level Task: Search - browse </li>
                             <u1>
-                                <li> The locations are known but there isn't a specified target for the user to look at  </li>
+                                <p> The locations are known but there isn't a specified target for the user to look at.  </p>
                             </u1>
-                        <li>Low Level Task: Query, compare</li>
+                        <li>Low Level Task: Query - compare</li>
                              <u1>
-                                <li> The visualization compares Seattle and Portland to measure temperature over time </li>
+                                <p> The visualization compares Seattle and Portland to measure temperature over time. </p>
                             </u1>
                         <li>Target: similarity</li>
                             <u1>
-                                <li> There are two locations with the same temperature variable so the task is to find the similarities between the two </li>
+                                <p> There are two locations with the same temperature variable so the task is to find the similarities between the two. </p>
                             </u1>
                     </ul>
                 </div>
@@ -130,6 +140,7 @@
         </div>
     </div>
 
+    <!-- circles and rectangles-->
     <div id = 'decoration'>
         <div class='flexbox'>
             <div class = 'row'>
@@ -139,7 +150,7 @@
                     </svg>
                 </div>
                 <div class = 'column'>
-                    <svg class = rect width = '100' height = '50'>
+                    <svg class = rect width = '50' height = '50' stroke='black' stroke-width='4'>
                     </svg>
                 </div>
                 <div class = "column">
@@ -148,7 +159,7 @@
                     </svg>
                 </div>
                 <div class = 'column'>
-                    <svg class = rect width = '100' height = '50'>
+                    <svg class = rect width = '50' height = '50' stroke='black' stroke-width='4'>
                     </svg>
                 </div>
                 <div class = "column">
@@ -162,7 +173,7 @@
     </div>
 
 
-
+    <!-- acknowledgements -->
     <h3>Acknowledgements</h3>
     <div>
         <ul>
