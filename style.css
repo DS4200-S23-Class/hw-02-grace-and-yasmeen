@@ -42,9 +42,11 @@ th {
 
 /* create flexbox */
 .flexbox {
+  color: slateblue;
   margin: 15px;
   display: flex;
   justify-content: space-between;
+  text-align: left;
 }
 
 .row {
@@ -68,13 +70,17 @@ img{
 
 /* rectangle style */
 .rect {
-  background-color: red;
+  background-color: lightblue;
   margin: 0 auto;
+  border: solid 2px black;
+  postion: relative;
 }
 
 /* rectangle hover */
 .rect:hover {
   background-color: blue;
+   border: solid 2px orange;
+  postion: relative;
 }
 
 /* circle style */
