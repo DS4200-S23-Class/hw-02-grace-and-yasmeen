@@ -71,29 +71,31 @@ img{
 }
 
 /* rectangle style */
-.rect {
-  background-color: lightblue;
+rect {
   margin: 0 auto;
-  border: solid 2px black;
+  stroke: black;
+  stroke-width: 2;
   postion: relative;
+  fill: lightblue;
 }
 
 /* rectangle hover */
-.rect:hover {
-  background-color: blue;
-   border: solid 2px orange;
+rect:hover {
+  fill: blue;
+  stroke: orange;
+  stroke-width: 2;
   postion: relative;
 }
 
 /* circle style */
-.circ {
-  background color: red;
+circle {
+  fill: blue;
   fill-opacity: 50%;
   margin: 0 auto;
 }
 
 /* circle hover */
-.circ:hover{
+circle:hover{
   stroke: red;
   stroke-width: 3;
 }
