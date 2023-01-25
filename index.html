@@ -30,7 +30,7 @@
                 <tr>
                     <td>Airports</td>
                     <td><a href="data/Airports.csv">link</a></td>
-                    <td>Table</td>
+                    <td>Geometry</td>
                 </tr>
                 <tr>
                     <td>Google-Web</td>
@@ -50,8 +50,8 @@
                 <li>Row data type: Item</li>
                 <li>Column data type: Attribute
                     <ul>
-                        <li>Attribute datetime: quantitative</li>
-                        <li>Attribute duration: quantitative</li>
+                        <li>Attribute datetime: sequential quantitative</li>
+                        <li>Attribute duration: sequential quantitative</li>
                         <li>Attribute city: nominal categorical</li>
                         <li>Attribute state: nominal categorical</li>
                         <li>Attribute country: nominal categorical</li>
@@ -72,8 +72,8 @@
             </ul> 
             <h2>Google-Web</h2>
             <ul>
-                <li>Row data type: Item</li>
-                <li>Column data type: Link</li>
+                <li>Row data type: item</li>
+                <li>Column data type: link</li>
             </ul> 
         </div>
 
@@ -87,19 +87,43 @@
                 <div class='column'>
                     <img src="img/vis1.png">
                     <ul>
-                        <li>High Level Task</li>
-                        <li>Medium Level Task</li>
-                        <li>Low Level Task</li>
-                        <li>Target</li>
+                        <li>High Level Task: Consume, discover</li>
+                            <u1>
+                                <li> Shows last 3 days' of data so user can look at where point aligns relative to other data </li>
+                            </u1>
+                        <li>Medium Level Task: Search, lookup</li>
+                            <u1>
+                                <li> Shows target data points for user to look at and the target and location are known  </li>
+                            </u1>
+                        <li>Low Level Task: Query: identify </li>
+                             <u1>
+                                <li>The data points are highlighted in red and are a single target  </li>
+                            </u1>
+                        <li>Target: outliers </li>
+                            <u1>
+                                <li>The highlighted data points lie away from the other data points indicating there is a different pattern compared to the rest of the data     </li>
+                            </u1>
                     </ul>
                 </div>
                 <div class ='column'>
                     <img src="img/vis2.png">
                     <ul>
-                        <li>High Level Task</li>
-                        <li>Medium Level Task</li>
-                        <li>Low Level Task</li>
-                        <li>Target</li>
+                        <li>High Level Task: Consume, present</li>
+                            <u1>
+                                <li> The visualization presents two statistics from two locations with clear and direct purpose  </li>
+                            </u1>
+                        <li>Medium Level Task: Search, browse </li>
+                            <u1>
+                                <li> The locations are known but there isn't a specified target for the user to look at  </li>
+                            </u1>
+                        <li>Low Level Task: Query, compare</li>
+                             <u1>
+                                <li> The visualization compares Seattle and Portland to measure temperature over time </li>
+                            </u1>
+                        <li>Target: similarity</li>
+                            <u1>
+                                <li> There are two locations with the same temperature variable so the task is to find the similarities between the two </li>
+                            </u1>
                     </ul>
                 </div>
             </div>
